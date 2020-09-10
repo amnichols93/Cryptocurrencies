@@ -1,2 +1,3 @@
-# Cryptocurrencies
-Module 18
+# Cryptocurrencies - Module 18
+
+This module asked us to use unsupervised learning to identify patterns and trends in a dataset regarding cryptocurrencies. We used an elbow curve to identify a K value of 4 and used K-means to break the data up into four classes. We then used hvplot to visualize the identified patterns in those four classes. The 2-D table visualization shows there is an outlier that skews the table dramatically and makes reasonable interpretation extremely difficult. The outlier CoinName is 'BitTorrent' and I am unclear why this datapoint is so far removed from the rest of the set. Perhaps greater domain knowledge of cryptocurrencies would help me evaluate how to handle this (either through additional data cleaning, or in my overall interpretation of what to do with this data post-analysis).
